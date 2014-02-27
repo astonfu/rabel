@@ -16,9 +16,12 @@ RABEL_MEMCACHED_USERNAME: ''
 RABEL_MEMCACHED_PASSWORD: ''
 RABEL_MEMCACHED_NAMESPACE: 'example'
 
+# 修改为 'on'，开启图片上传功能
+RABEL_UPLOAD_IMG_SWITCH: 'on'
+
 # 又拍云存储(www.upyun.com)配置
 
-# 修改为 'on'，开启图片上传功能
+# 修改为 'on'，使用又拍云存储图片，否则本地存储图片
 RABEL_UPYUN_SWITCH: 'off'
 
 # 操作员名称
